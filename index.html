@@ -7,7 +7,9 @@
         </head>
 
         <body>
+                <!-- This is a comment -->
                 <h1>I like pizza!!!!</h1>
+                <hr>
                 <h2>I like pizza!!!!</h2>
                 <h3>I like pizza!!!!</h3>
                 <h4>I like pizza!!!!</h4>
@@ -15,11 +17,38 @@
                 <h6>I like pizza!!!!</h6>
                 <br>
                 <p>This is some sample text.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, debitis, numquam labore magni qui
-                        temporibus
-                        voluptatibus illum porro ipsum, voluptatem minima ut eaque vero nam! Veritatis, voluptates sint?
-                        Itaque,
-                        fugit!</p>
+
+                <a href="https://www.google.com/" target="_blank" title="This will take you to google.">
+                        Google
+                </a>
+
+                <br>
+
+                <a href="page2.html">
+                        Go to page 2.
+                </a>
+
+                <!-- How to add images and link them-->
+                <a href="https://en.wikipedia.org/wiki/Snake">
+                        <img src="/Images/Snake.png" alt="This is a snake." title="SNAKE!!">
+                </a>
+
+                <br>
+                <!-- Adding Audio-->
+                <audio controls src="/Audio/Castlevania SOTN - Crystal Teardrop.flac"></audio>
+
+                <!-- Can also do it this way, with adding other controls and alternate files just in case the browser doesn't support them-->
+                <audio controls autoplay muted loop>
+                        <source src="/Audio/Castlevania SOTN - Crystal Teardrop.flac">
+                        <source src="/Audio/Castlevania SOTN - Crystal Teardrop.wav">
+                        This browser doesn't support HTML5 audio.
+                </audio>
+
+                <p></p>
+
+                <!-- Can also do the same method as above in the audio section and list MULTIPLE files in case the browser doesn't support that file type-->
+                <video controls src="/Videos/filtered-1868AC59-E172-4D26-9A53-A776065966E4.mp4" width="800"></video>
+
         </body>
 
 </html>
